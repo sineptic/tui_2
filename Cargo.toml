@@ -1,0 +1,12 @@
+[package]
+name = "tui_2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28"
+alternate_screen_wrapper = { path="../alternate_screen_wrapper", features = ["crossterm"]}
+
+ratatui = "0.28"
+ratatui_inputs = { version = "0.1", path="../ratatui-inputs/" }
+s_text_input_f = { path="../s_text_input_f" }
